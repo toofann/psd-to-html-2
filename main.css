@@ -15,6 +15,12 @@ body {
 h1 {
   font-weight: normal;
 }
+a,
+div,
+button,
+li {
+  transition: all 0.2s linear;
+}
 .header-section {
   width: 100%;
 }
@@ -66,6 +72,9 @@ h1 {
   line-height: 1.2;
   text-decoration: none;
   color: rgb(153, 153, 153);
+}
+.header-section__top_login a:hover {
+  color: #ffffff;
 }
 .header-section__middle {
   width: 96%;
@@ -124,6 +133,9 @@ h1 {
   background-color: #31363c;
   color: #ffffff;
   cursor: pointer;
+}
+.header-section__middle_search button:hover {
+  background-color: #3f4041;
 }
 .header-section__navbar {
   width: 96%;
@@ -192,7 +204,12 @@ h1 {
   top: 0;
   right: 0;
 }
-
+.navbar-small-icon:hover {
+  background-color: #31363c;
+}
+.navbar-small-icon:hover div {
+  background-color: #e9e9e9;
+}
 .navbar-small-icon div {
   width: 25px;
   height: 6px;
@@ -309,6 +326,9 @@ h1 {
   font-size: 13px;
   color: #4c555e;
 }
+.project-section__item a:hover {
+  text-shadow: 3px 3px 5px rgba(153, 153, 153, 0.8);
+}
 .footer-section {
   width: 100%;
   border-top: 2px solid #e2e2e2;
@@ -325,6 +345,10 @@ h1 {
   width: 319px;
   height: 373px;
   padding-top: 30px;
+}
+.footer-section__div_item a:hover {
+  color: black;
+  text-shadow: 1px 1px 5px rgba(153, 153, 153, 0.8);
 }
 .footer-section__div_item h1 {
   font-size: 12px;
@@ -406,6 +430,9 @@ h1 {
   font-size: 13px;
   border-radius: 5px;
   cursor: pointer;
+}
+.footer-item3 button:hover {
+  background-color: #303235;
 }
 .footer-item3-p1 {
   padding-bottom: 20px;
