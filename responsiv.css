@@ -1,0 +1,142 @@
+@media screen and (max-width: 575.98px) {
+  .header-section__top {
+    flex-direction: column;
+    height: 70px;
+  }
+  .header-section__top_contact {
+    padding-top: 6px;
+  }
+  .header-section__top_login {
+    padding-bottom: 5px;
+  }
+  .header-section__middle {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .header-section__middle_search {
+    padding-top: 25px;
+  }
+  .main-section__slider_text {
+    width: 70%;
+    height: 180px !important;
+  }
+  .main-section__slider {
+    height: 280px;
+  }
+  .service-section {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .service-section__item {
+    margin: 0 auto;
+    height: 100% !important;
+    padding-bottom: 20px;
+  }
+  .shout-section {
+    height: 200px;
+    height: 100% !important;
+  }
+  .project-section {
+    flex-direction: column;
+  }
+  .project-section__item {
+    margin: 0 auto;
+  }
+  .footer-section__div_item {
+    height: 100%;
+  }
+  .copyright-section__content {
+    flex-direction: column;
+  }
+  .copyright-section__content p {
+    margin: 0 auto;
+    padding-top: 8px;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .navbar-small-icon {
+    opacity: 1;
+    visibility: visible;
+  }
+  .header-section__navbar ul {
+    opacity: 0;
+    visibility: hidden;
+  }
+  .main-section__slider_text {
+    width: 70%;
+    height: 120px;
+  }
+
+  .shout-section {
+    height: 170px;
+  }
+
+  .footer-section__div {
+    flex-direction: column;
+  }
+  .footer-section__div_item {
+    width: 70% !important;
+    margin: 0 auto;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+  }
+  .footer-item2 {
+    width: 40% !important;
+  }
+}
+@media screen and (min-width: 768px) {
+  .header-section__navbar.active li,
+  .header-section__navbar.active li {
+    display: inline-block;
+    width: auto;
+    margin-left: -4px;
+  }
+  .header-section__navbar.active ul {
+    padding: 0px;
+    height: 50px;
+    text-align: left;
+  }
+}
+@media screen and (max-width: 991.98px) {
+  .service-section__item {
+    width: 50%;
+  }
+  .service-section {
+    flex-wrap: wrap;
+  }
+
+  .project-section {
+    flex-wrap: wrap;
+  }
+  .project-section__item {
+    width: 50%;
+
+    text-align: center;
+  }
+  .project-section__item_img {
+    margin: 0 auto;
+  }
+  .footer-section__div {
+    justify-content: space-between;
+  }
+  .footer-item3 input {
+    width: 80%;
+  }
+  .footer-section__div_item {
+    width: 40%;
+  }
+  .footer-item2 {
+    width: 24%;
+  }
+  .footer-item3 {
+    width: 250px;
+    padding-left: 0px;
+  }
+}
+@media screen and (min-width: 1199.98px) {
+  .main-section__slider {
+    height: 500px;
+  }
+}
